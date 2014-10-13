@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>HappyBox Login</title>
+
+  <link rel="stylesheet" href="css/foundation.css">
+  <!--
+  <link rel="stylesheet" href="css/happybox.css">
+  -->
+
+  <script src="js/vendor/custom.modernizr.js"></script>
+
+</head>
+<body>
+	<div class="row">
+		<div class="large-6 large-centered small-12 columns">
+			<form method="post" action="/login" id="loginForm">
+				<input type="hidden" name="view" value="true" />
+				<div class="row">
+					<div class="large-12 small-12 columns">
+						<fieldset>
+							<legend>HappyBox Login</legend>
+							<label>Email:</label>
+							<input type="text" name="email" id="loginEmail"><br/>
+							<label>Password:</label>
+							<input type="password" name="passwrd" id="loginPw"><br/>
+							<input type="button" value="Login" id="loginBtn" class="button success radius expand" />
+							<h6 class="subheader"><a href="/register">Don't have an account yet? Register here!</a></h6>
+						</fieldset>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	
+	<div id="HappyBoxLoginModal" class="reveal-modal">
+		<div class="row entry-section">
+			<div class="large-12 small-12 columns" id="HappyBoxLoginModalMessage"></div>
+		</div>
+		<a class="close-reveal-modal">&#215;</a>
+	</div>
+	
+	<script>
+		document.write('<script src=' +
+		('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+		'.js><\/script>')
+	</script>
+	<script src="js/foundation.min.js"></script>
+	<script src="js/happybox.login.js"></script>
+
+	<script>
+		$(document).foundation();
+	</script>
+</body>
+</html>
