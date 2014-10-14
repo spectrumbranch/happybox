@@ -17,6 +17,6 @@
     "async": "^0.9.0",
     "joi": "^4.7.0",
     "hapi-auth-cookie": "^1.3.2",
-    "nodemailer": "^1.3.0"
+    "nodemailer": "~0.5.5"
   }
 }
