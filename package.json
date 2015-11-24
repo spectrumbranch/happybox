@@ -1,6 +1,6 @@
 {
   "name": "happybox",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,14 +9,14 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "hapi": "^7.0.0",
-    "scurvy": "^0.3.0",
-    "sequelize": "^1.7.10",
-    "mysql": "^2.5.2",
-    "handlebars": "^2.0.0",
     "async": "^0.9.0",
-    "joi": "^4.7.0",
+    "handlebars": "^2.0.0",
+    "hapi": "^7.0.0",
     "hapi-auth-cookie": "^1.3.2",
-    "nodemailer": "~0.5.5"
+    "joi": "^4.7.0",
+    "mysql": "^2.9.0",
+    "nodemailer": "~0.5.5",
+    "scurvy": "^0.4.0",
+    "sequelize": "^3.14.1"
   }
 }
