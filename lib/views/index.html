@@ -6,6 +6,7 @@
   <title>HappyBox</title>
   
   <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/custom.css">
   <script src="js/vendor/custom.modernizr.js"></script>
 </head>
 <body>
@@ -23,7 +24,6 @@
 							<input type="date" name="date" />
 							<br />
 							<button type="submit" class="button radius expand">Submit Happiness</button>
-							<div id="msg"></div>
 							<div><a href="/logout">Logout</a></div>
 						</fieldset>
 					</div>
@@ -31,6 +31,44 @@
 			</form>
 		</div>
 	</div>
+	<div class="row">
+		<div class="large-6 large-centered small-12 columns">
+			<form method="get" action="/gethappy" id="happinessResults">
+				<input type="hidden" name="view" value="true" />
+				<div class="row">
+					<div class="large-12 small-12 columns">
+						<fieldset>
+							<button type="button" id="get-happy-button" class="button radius expand happy">Get Happy!</button>
+						</fieldset>
+					</div>
+				</div>
+
+				<div id="msg"></div>
+				<div id="msg-date"></div>
+
+
+
+
+
+
+
+
+
+
+			</form>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
 	
 	<script>
 		document.write('<script src=' +

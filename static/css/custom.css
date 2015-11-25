@@ -1,0 +1,11 @@
+button.button.radius.expand.happy {
+	background: #23D89E;
+	border-color: #23D89E;
+	height: 5rem;
+	font-size: 28px;
+	margin-bottom: 0;
+}
+
+button.button.radius.expand.happy:hover{
+background-color: #0E5841;
+}
