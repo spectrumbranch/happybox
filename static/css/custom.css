@@ -9,3 +9,24 @@ button.button.radius.expand.happy {
 button.button.radius.expand.happy:hover{
 background-color: #0E5841;
 }
+
+div#msg {
+    text-align: center;
+    padding: 1rem;
+    color: #2284a1;
+    font: inherit;
+    font-size: 24px;
+}
+
+div#msg-date {
+    text-align: center;
+    padding: 1rem;
+    color: #23D89E;
+    font: inherit;
+    font-size: 24px;
+}
+
+div#msg-box{
+	border: solid 5px #000000;
+	box-shadow: 3px 5px 5px #888;
+}
