@@ -46,3 +46,7 @@ img#main-logo{
     margin-right: auto;
     display: block;
 }
+
+h3#happy-question{
+    font-size: 26px;
+}
