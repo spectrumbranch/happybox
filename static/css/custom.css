@@ -50,3 +50,8 @@ img#main-logo{
 h3#happy-question{
     font-size: 26px;
 }
+
+.version {
+    font-size: 12px;
+    color: #808080;
+}

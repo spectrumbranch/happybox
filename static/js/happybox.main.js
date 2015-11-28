@@ -1,5 +1,6 @@
 $(document).ready(function () {
 	responseHandler();
+    setupVersion();
 	setupGetHappyButton();
 });
 
@@ -14,8 +15,13 @@ var responseHandler = function() {
 	}
 };
 
+var setupVersion = function() {
+    $.get("/version",function(data) {
+        $("#version").text('v' + data.version);
+	});
+};
 
-var setupGetHappyButton=function() {
+var setupGetHappyButton = function() {
 	$("#get-happy-button").click(function() {
 		$.get("/gethappy",function(data) {
 
